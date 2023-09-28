@@ -18,7 +18,7 @@ int main()
 	char decrypt[26], cypher[26];
 	for (int i = 0; i < 26; i++)
 	{
-		decrypt[i] = char(i + 65);
+		decrypt[i] = char(i + 97);
 		//cout << decrypt[i] << " ";
 	}
 	cypher[0] = 'v';
@@ -56,6 +56,7 @@ int main()
 				if (s[i] == cypher[j])
 				{
 					s[i] = decrypt[j];
+					break;
 				}
 			}
 		}
