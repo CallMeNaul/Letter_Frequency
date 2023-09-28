@@ -37,6 +37,6 @@ int main()
 		cout << "|" << char(i + 97) << ": " << (double)letFre[i] * 100 / letCount << "%" << "\n\t\t";
 	}
 	cout << "|_____________\n\t\t";
-			 
+
 	return 0;
 }
