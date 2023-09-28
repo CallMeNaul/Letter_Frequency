@@ -15,11 +15,11 @@ int main()
 	cout << "Cipher Text:\n\n-------------------------------------------\n" << s;
 	cout << "\n-------------------------------------------\n";
 
+	// Thay thế các từ
 	char decrypt[26], cypher[26];
 	for (int i = 0; i < 26; i++)
 	{
 		decrypt[i] = char(i + 97);
-		//cout << decrypt[i] << " ";
 	}
 	cypher[0] = 'v';
 	cypher[1] = 'g';
