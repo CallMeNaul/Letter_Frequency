@@ -30,9 +30,13 @@ int main()
 			letFre[temp]++;
 		}
 	}
+	cout << "\tRatio of letters in the paragraph:";
+	cout << "\n\t\t______________\n\t\t";
 	for (int i = 0; i < 26; i++)
 	{
-		cout << char(i + 97) << ": " << (double) letFre[i] *100 / letCount<<"%" << endl;
+		cout << "|" << char(i + 97) << ": " << (double)letFre[i] * 100 / letCount << "%" << "\n\t\t";
 	}
+	cout << "|_____________\n\t\t";
+			 
 	return 0;
 }
